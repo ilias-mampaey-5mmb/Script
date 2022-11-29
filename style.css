@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(143, 117, 117);
+}
+
+#flexbox {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
