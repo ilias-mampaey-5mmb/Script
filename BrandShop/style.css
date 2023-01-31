@@ -12,15 +12,21 @@ body {
 
 header {
   background-color: rgb(110, 108, 108);
-  padding: 20px 0;
+}
+
+.mini-header {
+  background-color: rgb(203, 203, 203);
+}
+
+.menu {
+  background-color: rgb(227, 227, 227);
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .logo {
