@@ -105,3 +105,10 @@ video {
   margin-top: 2%;
 
 }
+h3 {
+  align-items: center;
+}
+.flex-discount{
+  text-align: center;
+  display: flex;
+}
