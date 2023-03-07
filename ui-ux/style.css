@@ -1,0 +1,94 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Center header text */
+header h1,
+header h2
+ .header {
+  text-align: center;
+}
+
+  
+  /* Set full screen background image */
+  header {
+    background-image: url(images/Newzy_modern_landing_page_ui_ux_uiux_eco_friendly_mansions_Luxu_60f46816-6178-4396-8d92-b79a95ab7e76.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .logo img {
+    width: 200px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    max-width: 800px;
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .hero h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /*
+  

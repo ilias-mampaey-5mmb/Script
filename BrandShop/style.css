@@ -86,7 +86,7 @@ footer {
 }
 a {
 text-decoration: none;
-color: black;
+color: rgb(255, 255, 255);
 }
 .flex-product{
   display: flex;
@@ -111,4 +111,64 @@ h3 {
 .flex-discount{
   text-align: center;
   display: flex;
+}
+
+footer {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-item:first-child {
+  flex-basis: 100%;
+}
+
+.footer-item {
+  flex-basis: calc(33.33% - 20px);
+}
+
+.footer-item h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item li {
+  margin-bottom: 5px;
+}
+
+.footer-item a {
+  color: #333;
+}
+
+.footer-item form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-item input[type="email"] {
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  flex-grow: 1;
+}
+
+.footer-item button {
+  padding: 10px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
 }
