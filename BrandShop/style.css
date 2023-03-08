@@ -148,5 +148,6 @@ footer i:hover {
 .flex-container {
   display: flex;
   text-align: left;
-  gap: 20px;
+  gap: 70px;
 }
+
