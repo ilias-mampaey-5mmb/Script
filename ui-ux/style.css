@@ -5,11 +5,13 @@
     box-sizing: border-box;
   }
 
-  /* Center header text */
 header h1,
 header h2
  .header {
-  text-align: center;
+  text-align: top;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 20pt;
 }
 
   
@@ -43,6 +45,7 @@ header h2
   
   nav li {
     margin-left: 20px;
+    margin-right: 20px;
   }
   
   nav a {
@@ -90,5 +93,7 @@ header h2
     font-family: 'Roboto', sans-serif;
   }
   
-  /*
+.social-icons {
+display: block;
+}
   
