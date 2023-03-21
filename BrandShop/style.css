@@ -90,11 +90,14 @@ color: rgb(255, 255, 255);
 }
 .flex-product{
   display: flex;
+  text-align: center;
 }
 
 .flex-item{
   text-align: center;
   display: flex;
+  text-align: start;
+   
 }
 video {
   top: 0%;
