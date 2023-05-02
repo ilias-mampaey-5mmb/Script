@@ -1,0 +1,46 @@
+header {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+    font-family:domus titling;
+    grid-template-columns:repeat(3, 1fr);
+    
+}
+
+
+
+.logo img {
+	height: 125px;
+}
+
+.name {
+	font-size: 24px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: gray;
+}
+
+.container {
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+  }

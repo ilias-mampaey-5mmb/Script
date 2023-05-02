@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>bootstrap</title>
 </head>
 <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="row">
-    <div class="col-lg-4">
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam dignissimos architecto voluptates ducimus velit pariatur. Soluta perspiciatis enim expedita nobis minima alias sapiente ut nostrum laboriosam, deleniti pariatur delectus.</p>
+  <!-- About Section -->
+  <section class="About">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Backend development refers to the development of the server-side of web applications, which includes designing and implementing the logic, algorithms, and database management systems that enable the frontend user interface to function. A backend developer is responsible for building and maintaining the server-side of web applications, which is often done using programming languages such as Java, Python, Ruby, PHP, and JavaScript.</p>
     </div>
-    <div class="col-lg-8">
-<img src="https://images.unsplash.com/photo-1493589976221-c2357c31ad77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="img-fluid">
+  </section>
+
+  <!-- Grid -->
+  <section class="grid-section">
+    <div class="container">
+      <h2>Grid</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Designing and developing web application architecture: Backend developers design and develop the overall architecture of a web application, which includes the database schema, server-side logic, and APIs.
+
+            Building and maintaining APIs: Backend developers create APIs that allow frontend developers to interact with the server-side of the application. This can include RESTful APIs, GraphQL APIs, and other types of APIs.</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Managing databases: Backend developers manage the database that stores the application data. This includes designing the database schema, creating database queries, and optimizing the database for performance.
+
+            Developing server-side logic: Backend developers write the code that executes on the server-side of the application. This can include user authentication and authorization, business logic, and data validation.</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Optimizing application performance: Backend developers optimize the application performance by identifying and resolving performance bottlenecks, implementing caching mechanisms, and improving database performance.
+
+            Ensuring application security: Backend developers ensure that the application is secure by implementing security measures such as encryption, input validation, and access control.</p>
+        </div>
+      </div>
     </div>
-</div>
-    
+  </section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
