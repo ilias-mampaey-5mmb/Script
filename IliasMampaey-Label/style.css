@@ -1,45 +1,87 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: hsl(0, 0%, 02%);
+    --bgc-02: hsl(0, 0%, 08%);
+    --txt-01: hsl(0, 0%, 90%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 header {
-	background-color: black;
-	color: white;
-	justify-content: space-between;
-	padding: 10px;
-    font-family:domus titling;
-	display: grid;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: domus titling;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: end;
-    
+
 }
 
 
 
 .logo img {
-	height: 10px;
+    width: 160px;
 }
 
 .name {
-	font-size: 24px;
+    font-size: 24px;
 }
 
 nav ul {
-	list-style: none;
-	display: flex;
+    list-style: none;
+    display: flex;
 }
 
 nav li {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 nav a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
-	color: gray;
+    color: gray;
+}
+
+section {
+    padding: 0 150px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+
+  }
