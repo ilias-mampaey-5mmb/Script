@@ -85,3 +85,14 @@ footer {
     color: #ffffff;
 
   }
+
+  .artiest-photo{
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .artiest-photo-img{
+    transform: translateY(-25%);
+  }
